@@ -57,7 +57,7 @@ namespace SimpleExample
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-                System.Diagnostics.Process.Start("http://kb.or.kr");
+            System.Diagnostics.Process.Start("http://kb.or.kr");
         }
 
         }
