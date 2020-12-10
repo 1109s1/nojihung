@@ -1,0 +1,10 @@
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.csprojAssemblyReference.cache
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.Form1.resources
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.Properties.Resources.resources
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.csproj.GenerateResource.cache
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.csproj.CoreCompileInputs.cache
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\bin\Debug\SimpleExample.exe.config
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\bin\Debug\SimpleExample.exe
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\bin\Debug\SimpleExample.pdb
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.exe
+D:\Git\nojihung\vscode\SimpleExample\SimpleExample\obj\Debug\SimpleExample.pdb
