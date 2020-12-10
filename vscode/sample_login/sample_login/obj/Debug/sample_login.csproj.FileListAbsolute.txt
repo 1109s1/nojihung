@@ -1,0 +1,10 @@
+D:\Git\nojihung\vscode\sample_login\sample_login\bin\Debug\sample_login.exe.config
+D:\Git\nojihung\vscode\sample_login\sample_login\bin\Debug\sample_login.exe
+D:\Git\nojihung\vscode\sample_login\sample_login\bin\Debug\sample_login.pdb
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.csprojAssemblyReference.cache
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.Form1.resources
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.Properties.Resources.resources
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.csproj.GenerateResource.cache
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.csproj.CoreCompileInputs.cache
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.exe
+D:\Git\nojihung\vscode\sample_login\sample_login\obj\Debug\sample_login.pdb
