@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+public class Loop1 {
+
+	public static void main(String[] args) {
+
+		for (int i=0; i<5; i++) {
+//			System.out.println("¹Ýº¹ È½¼ö : " + (i+1));
+//			System.out.println("¹Ýº¹ È½¼ö : " +(i+1));
+		
+			for (int j = 5; j>0 ; j--) {
+				System.out.println("¹Ýº¹È½¼ö : " + j);
+			}
+		}
+	}
+
+}
