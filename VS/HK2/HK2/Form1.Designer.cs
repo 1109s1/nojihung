@@ -31,25 +31,39 @@ namespace HK2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonTasks = new System.Windows.Forms.Button();
+            this.buttonCalender = new System.Windows.Forms.Button();
+            this.buttonSellers = new System.Windows.Forms.Button();
+            this.buttonDashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.panelleft = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.buttonTasks);
+            this.panel1.Controls.Add(this.buttonCalender);
+            this.panel1.Controls.Add(this.buttonSellers);
+            this.panel1.Controls.Add(this.buttonDashboard);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -57,13 +71,69 @@ namespace HK2
             this.panel1.Size = new System.Drawing.Size(193, 637);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // buttonTasks
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(193, 385);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(607, 252);
-            this.panel2.TabIndex = 0;
+            this.buttonTasks.FlatAppearance.BorderSize = 0;
+            this.buttonTasks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTasks.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTasks.ForeColor = System.Drawing.Color.White;
+            this.buttonTasks.Image = ((System.Drawing.Image)(resources.GetObject("buttonTasks.Image")));
+            this.buttonTasks.Location = new System.Drawing.Point(0, 437);
+            this.buttonTasks.Name = "buttonTasks";
+            this.buttonTasks.Size = new System.Drawing.Size(190, 96);
+            this.buttonTasks.TabIndex = 1;
+            this.buttonTasks.Text = "Tasks";
+            this.buttonTasks.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.buttonTasks.UseVisualStyleBackColor = true;
+            this.buttonTasks.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // buttonCalender
+            // 
+            this.buttonCalender.FlatAppearance.BorderSize = 0;
+            this.buttonCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCalender.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCalender.ForeColor = System.Drawing.Color.White;
+            this.buttonCalender.Image = ((System.Drawing.Image)(resources.GetObject("buttonCalender.Image")));
+            this.buttonCalender.Location = new System.Drawing.Point(0, 335);
+            this.buttonCalender.Name = "buttonCalender";
+            this.buttonCalender.Size = new System.Drawing.Size(190, 96);
+            this.buttonCalender.TabIndex = 1;
+            this.buttonCalender.Text = "Calender";
+            this.buttonCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.buttonCalender.UseVisualStyleBackColor = true;
+            this.buttonCalender.Click += new System.EventHandler(this.buttonCalender_Click);
+            // 
+            // buttonSellers
+            // 
+            this.buttonSellers.FlatAppearance.BorderSize = 0;
+            this.buttonSellers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSellers.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSellers.ForeColor = System.Drawing.Color.White;
+            this.buttonSellers.Image = ((System.Drawing.Image)(resources.GetObject("buttonSellers.Image")));
+            this.buttonSellers.Location = new System.Drawing.Point(0, 233);
+            this.buttonSellers.Name = "buttonSellers";
+            this.buttonSellers.Size = new System.Drawing.Size(190, 96);
+            this.buttonSellers.TabIndex = 1;
+            this.buttonSellers.Text = "Sellers";
+            this.buttonSellers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.buttonSellers.UseVisualStyleBackColor = true;
+            this.buttonSellers.Click += new System.EventHandler(this.buttonSellers_Click);
+            // 
+            // buttonDashboard
+            // 
+            this.buttonDashboard.FlatAppearance.BorderSize = 0;
+            this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDashboard.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDashboard.ForeColor = System.Drawing.Color.White;
+            this.buttonDashboard.Image = ((System.Drawing.Image)(resources.GetObject("buttonDashboard.Image")));
+            this.buttonDashboard.Location = new System.Drawing.Point(0, 140);
+            this.buttonDashboard.Name = "buttonDashboard";
+            this.buttonDashboard.Size = new System.Drawing.Size(190, 96);
+            this.buttonDashboard.TabIndex = 1;
+            this.buttonDashboard.Text = "Dashboard";
+            this.buttonDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.buttonDashboard.UseVisualStyleBackColor = true;
+            this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
             // 
             // panel3
             // 
@@ -73,15 +143,6 @@ namespace HK2
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(193, 100);
             this.panel3.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(362, 140);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
             // 
             // label2
             // 
@@ -93,76 +154,155 @@ namespace HK2
             this.label2.TabIndex = 1;
             this.label2.Text = "m";
             // 
-            // button1
+            // panel2
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(0, 140);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 96);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Dashboard";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(0, 233);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 96);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Sellers";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(0, 335);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 96);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Calender";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(0, 437);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(190, 96);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Tasks";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.panel2.Controls.Add(this.checkBox4);
+            this.panel2.Controls.Add(this.checkBox3);
+            this.panel2.Controls.Add(this.checkBox2);
+            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(193, 385);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(607, 252);
+            this.panel2.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(245, 69);
+            this.label3.Location = new System.Drawing.Point(210, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Total Sales";
             this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(278, 106);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(500, 248);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(425, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Total Sales";
+            this.label1.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(713, 77);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Week";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(614, 77);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "Month";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(507, 77);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Six month";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(397, 77);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 4;
+            this.button8.Text = "Year";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(21, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(300, 220);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(352, 40);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(233, 24);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "Lorem ispum is a dummy Text";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(352, 70);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(127, 22);
+            this.checkBox2.TabIndex = 4;
+            this.checkBox2.Text = "C# UI Designing";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(352, 100);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(167, 24);
+            this.checkBox3.TabIndex = 4;
+            this.checkBox3.Text = "By SalaaR HuSceyN";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(352, 124);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(147, 24);
+            this.checkBox4.TabIndex = 4;
+            this.checkBox4.Text = "C# UI Academy";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // panelleft
+            // 
+            this.panelleft.BackColor = System.Drawing.Color.Yellow;
+            this.panelleft.Location = new System.Drawing.Point(200, 140);
+            this.panelleft.Name = "panelleft";
+            this.panelleft.Size = new System.Drawing.Size(7, 72);
+            this.panelleft.TabIndex = 5;
             // 
             // Form1
             // 
@@ -170,8 +310,13 @@ namespace HK2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(800, 637);
+            this.Controls.Add(this.panelleft);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -180,9 +325,14 @@ namespace HK2
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,15 +341,26 @@ namespace HK2
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonTasks;
+        private System.Windows.Forms.Button buttonCalender;
+        private System.Windows.Forms.Button buttonSellers;
+        private System.Windows.Forms.Button buttonDashboard;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Panel panelleft;
     }
 }
 
