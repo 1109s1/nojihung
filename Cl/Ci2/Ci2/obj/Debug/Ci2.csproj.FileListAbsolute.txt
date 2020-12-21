@@ -1,0 +1,7 @@
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\bin\Debug\Ci2.exe.config
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\bin\Debug\Ci2.exe
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\bin\Debug\Ci2.pdb
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\obj\Debug\Ci2.csprojAssemblyReference.cache
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\obj\Debug\Ci2.csproj.CoreCompileInputs.cache
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\obj\Debug\Ci2.exe
+D:\allgit20201211\nojihung\Cl\Ci2\Ci2\obj\Debug\Ci2.pdb

@@ -1,0 +1,16 @@
+
+public class Loop6 {
+
+	public static void main(String[] args) {
+
+		int hap = 0;
+		int i = 0; //초기값
+		while (i<10) {
+			hap = hap + (i+1); // hap +=(i+1)
+			i++;
+		}
+		System.out.println("1~10까지 합 : " + hap);
+		
+	}
+
+}

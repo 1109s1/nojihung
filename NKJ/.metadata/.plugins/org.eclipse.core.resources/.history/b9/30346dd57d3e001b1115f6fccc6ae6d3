@@ -1,0 +1,37 @@
+
+public class IF5 {
+
+	public static void main(String[] args) {
+
+		Scaaner s = new Scanner(System.in);
+		System.out.println("Num1 입력 => ");
+		double op1 = s.nextdouble();
+		Scaaner s = new Scanner(System.in);
+		System.out.println("Num2 입력 => ");
+		double op2 = s.nextdouble();
+		System.out.println("연산자 입력(+,-,*,/) ");
+		String oper = s.next();
+		double result = 0;
+		
+		if (oper.equals("+")) {
+			result = op1 + op2;
+		}
+		else if(oper.equals("-")) {
+			result = op1 - op2;
+			
+		}
+		else if(oper.equals("*")) {
+			result = op1 * op2;
+	
+		}
+		
+		else if(oper.equals("/")) {
+			result = op1 / op2;
+		}
+		System.out.println(op1+oper+op2+"=" + result);
+		s.close();
+	}
+	
+	
+
+}

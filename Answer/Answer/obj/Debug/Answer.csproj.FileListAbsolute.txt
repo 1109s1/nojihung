@@ -1,0 +1,7 @@
+D:\allgit20201211\nojihung\Answer\Answer\bin\Debug\Answer.exe.config
+D:\allgit20201211\nojihung\Answer\Answer\bin\Debug\Answer.exe
+D:\allgit20201211\nojihung\Answer\Answer\bin\Debug\Answer.pdb
+D:\allgit20201211\nojihung\Answer\Answer\obj\Debug\Answer.csprojAssemblyReference.cache
+D:\allgit20201211\nojihung\Answer\Answer\obj\Debug\Answer.csproj.CoreCompileInputs.cache
+D:\allgit20201211\nojihung\Answer\Answer\obj\Debug\Answer.exe
+D:\allgit20201211\nojihung\Answer\Answer\obj\Debug\Answer.pdb

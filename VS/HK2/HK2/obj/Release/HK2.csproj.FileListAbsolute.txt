@@ -1,0 +1,9 @@
+D:\allgit20201211\nojihung\VS\HK2\HK2\bin\Release\HK2.exe.config
+D:\allgit20201211\nojihung\VS\HK2\HK2\bin\Release\HK2.exe
+D:\allgit20201211\nojihung\VS\HK2\HK2\bin\Release\HK2.pdb
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.Form1.resources
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.Properties.Resources.resources
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.csproj.GenerateResource.cache
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.csproj.CoreCompileInputs.cache
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.exe
+D:\allgit20201211\nojihung\VS\HK2\HK2\obj\Release\HK2.pdb

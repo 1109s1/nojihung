@@ -1,0 +1,12 @@
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\bin\Debug\Homework.exe.config
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\bin\Debug\Homework.exe
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\bin\Debug\Homework.pdb
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\bin\Debug\Bunifu_UI_v1.52.dll
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.csprojAssemblyReference.cache
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.Form1.resources
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.Properties.Resources.resources
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.csproj.GenerateResource.cache
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.csproj.CopyComplete
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.exe
+D:\allgit20201211\nojihung\VS\HK\Homework\Homework\obj\Debug\Homework.pdb

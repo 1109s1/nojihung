@@ -1,0 +1,13 @@
+
+public class Ltest1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("------------------------");
+		System.out.println(" Â¦¼ö, È¦¼ö ±¸ºÐ ÇÁ·Î±×·¥ v1.0");
+		System.out.println("------------------------");
+		
+		for (int i = 0 ; i <10; i
+	}
+
+}

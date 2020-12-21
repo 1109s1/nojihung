@@ -1,0 +1,7 @@
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\obj\Debug\Algorithm_20201218.csproj.CoreCompileInputs.cache
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\bin\Debug\Algorithm_20201218.exe.config
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\bin\Debug\Algorithm_20201218.exe
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\bin\Debug\Algorithm_20201218.pdb
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\obj\Debug\Algorithm_20201218.exe
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\obj\Debug\Algorithm_20201218.pdb
+D:\allgit20201211\nojihung\Answer\Algorithm_20201218\obj\Debug\Algorithm_20201218.csprojAssemblyReference.cache
