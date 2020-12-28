@@ -1,0 +1,7 @@
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\bin\Debug\C_sooup.exe.config
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\bin\Debug\C_sooup.exe
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\bin\Debug\C_sooup.pdb
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\obj\Debug\C_sooup.csprojAssemblyReference.cache
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\obj\Debug\C_sooup.csproj.CoreCompileInputs.cache
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\obj\Debug\C_sooup.exe
+D:\nogit\nojihung\c#aray\C_sooup\C_sooup\obj\Debug\C_sooup.pdb
