@@ -3,8 +3,7 @@ package test1;
 public class Test1 {
 
 	public static void main(String[] args) {
-		int main() {
-			int a, b, c;
+				int a, b, c;
 			int max, min;
 
 			scanf("%d %d %d", &a, &b, &c);
